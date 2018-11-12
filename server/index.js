@@ -10,7 +10,7 @@ const OrderRoutes = require("./routes/OrderRoutes");
 const MessageRoutes = require("./routes/MessageRoutes");
 
 // Read csv and convert to json
-const data = fs.readFileSync("server/data.csv", "utf8");
+const data = fs.readFileSync(__dirname + "/data.csv", "utf8");
 const jsonData = csvToJson(data);
 
 const app = express();
