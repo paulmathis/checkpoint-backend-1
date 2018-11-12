@@ -38,8 +38,8 @@ function TransactionsPanel(props) {
         <div className="panel-body">
             <div className="list-group">
     
-               Name: <input id="orderDate" />
-               Date: <input id="orderTime"/>
+               Date: <input id="orderDate" />
+               Time: <input id="orderTime"/>
                Amount: <input id="orderAmount"/>
                <button onClick={
                 ()=>{
